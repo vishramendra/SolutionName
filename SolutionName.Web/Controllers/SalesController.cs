@@ -65,13 +65,13 @@ namespace SolutionName.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            SalesOrder salesOrder = _salesContext.SalesOrders.Find(id);
+            var salesOrder = _salesContext.SalesOrders.Find(id);
             if (salesOrder == null)
             {
                 return HttpNotFound();
             }
 
-            SalesOrderViewModel salesOrderViewModel = new SalesOrderViewModel();
+            var salesOrderViewModel = new SalesOrderViewModel();
             salesOrderViewModel.SalesOrderId = salesOrder.SalesOrderId;
             salesOrderViewModel.CustomerName = salesOrder.CustomerName;
             salesOrderViewModel.PONumber = salesOrder.PONumber;
@@ -109,12 +109,17 @@ namespace SolutionName.Web.Controllers
         
         public JsonResult Save(SalesOrderViewModel salesOrderViewModel)
         {
-            SalesOrder salesOrder = new SalesOrder();
-            salesOrder.CustomerName = salesOrderViewModel.CustomerName;
-            salesOrder.PONumber = salesOrderViewModel.PONumber;
-            salesOrder.ObjectState = salesOrderViewModel.ObjectState;
+            var salesOrder = new SalesOrder
+            {
+                SalesOrderId = salesOrderViewModel.SalesOrderId,
+                CustomerName = salesOrderViewModel.CustomerName,
+                PONumber = salesOrderViewModel.PONumber,
+                ObjectState = salesOrderViewModel.ObjectState
+            };
 
-            _salesContext.SalesOrders.Add(salesOrder);
+            _salesContext.SalesOrders.Attach(salesOrder);
+            _salesContext.ChangeTracker.Entries<IObjectWithState>().Single().State = Helper.ConvertState(salesOrder.ObjectState);
+            
             _salesContext.SaveChanges();
 
             salesOrderViewModel.MessageToClient = string.Format("{0}’s sales order has been added to the database.", salesOrder.CustomerName);
