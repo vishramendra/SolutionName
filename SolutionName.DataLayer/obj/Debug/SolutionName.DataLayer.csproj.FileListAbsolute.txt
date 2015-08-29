@@ -1,0 +1,14 @@
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\SolutionName.DataLayer.dll.config
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\SolutionName.DataLayer.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\SolutionName.DataLayer.pdb
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\EntityFramework.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\SolutionName.Model.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\SolutionName.Model.pdb
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\EntityFramework.xml
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\obj\Debug\SolutionName.DataLayer.csprojResolveAssemblyReference.cache
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\obj\Debug\SolutionName.DataLayer.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\obj\Debug\SolutionName.DataLayer.pdb
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.DataLayer\bin\Debug\Newtonsoft.Json.xml
