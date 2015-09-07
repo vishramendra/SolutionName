@@ -33,6 +33,7 @@ C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Solutio
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\SolutionName.Model.pdb
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\EntityFramework.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\EntityFramework.SqlServer.xml
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Newtonsoft.Json.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.Web.Helpers.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.Web.Mvc.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.Web.Optimization.xml
@@ -41,7 +42,6 @@ C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.Web.WebPages.Deployment.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\System.Web.WebPages.Razor.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Antlr3.Runtime.pdb
-C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Newtonsoft.Json.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -48,6 +48,7 @@
     <Compile Include="IObjectWithState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesOrder.cs" />
+    <Compile Include="SalesOrderItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

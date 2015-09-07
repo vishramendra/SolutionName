@@ -1,7 +1,6 @@
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\bin\Debug\SolutionName.Model.dll
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\bin\Debug\SolutionName.Model.pdb
-C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\obj\Debug\SolutionName.Model.dll
-C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\obj\Debug\SolutionName.Model.pdb
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\bin\Debug\Newtonsoft.Json.dll
 C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\bin\Debug\Newtonsoft.Json.xml
-C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\obj\Debug\SolutionName.Model.csprojResolveAssemblyReference.cache
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\obj\Debug\SolutionName.Model.dll
+C:\Ashutosh\Trainining\WEB Development\SolutionName\SolutionName.Model\obj\Debug\SolutionName.Model.pdb

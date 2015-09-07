@@ -13,28 +13,9 @@
     <script src="~/Scripts/knockout.mapping-latest.js"></script>
     <script src="~/Scripts/salesorderviewmodel.js"></script>
     <script type="text/javascript">
-        debugger;
         var salesOrderViewModel = new SalesOrderViewModel(@Html.Raw(data));        
         ko.applyBindings(salesOrderViewModel);
     </script>
 }
 
-<h2>@ViewBag.Title</h2> 
-
-<p data-bind="text: MessageToClient"></p>
-
-<div>
-    <div>
-        <label>Customer Name:</label>
-        <input data-bind="value: CustomerName" />
-    </div>
-    <div>
-        <label>P.O. Number:</label>
-        <input data-bind="value: PONumber" />
-    </div>
-</div>
-<p><button data-bind="click: save">Save</button></p>
-
-<p>
-    @Html.ActionLink("Back to List", "Index")
-</p>
+@Html.Partial("_EditSalesOrder")

@@ -5,9 +5,27 @@
     Deleted : 3
 }
 
-SalesOrderViewModel = function (data) {
+var salesOrderItemMapping = {
+    'SalesOrderItems' : {
+        key: function(salesOrderItem){
+            return ko.utils.unwrapObservable(salesOrderItem.SalesOrderItemId);
+        },
+        create: function (options) {
+            return new SalesOrderItemViewModel(options.data);
+        }
+    }
+};
+
+
+
+SalesOrderItemViewModel = function (data) {
     var self = this;
     ko.mapping.fromJS(data, {}, self);
+};
+
+SalesOrderViewModel = function (data) {
+    var self = this;
+    ko.mapping.fromJS(data, {}, self),
 
     self.save = function () {
         $.ajax({
@@ -18,6 +36,10 @@ SalesOrderViewModel = function (data) {
             success: function (data) {
                 if (data.salesOrderViewModel != null)
                     ko.mapping.fromJS(data.salesOrderViewModel, {}, self);
+
+                
+                if(data.newLocation!=null)
+                    window.location.reload(data.newLocation);
             },
             error: function (data) {
                 alert("Error");
